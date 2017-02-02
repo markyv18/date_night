@@ -7,7 +7,7 @@ class Node
     @left = left
     @score = score
     @title = title
-    @depth_chart = -1
+    @depth_chart = 0
   end
 
   def insert_new_node(new_data, new_title)

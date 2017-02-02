@@ -8,17 +8,17 @@ class BinarySearchTreeTest < Minitest::Test
 
   def test_date_night_node
     node = BinarySearchTree.new
-    assert_equal 61, node.head.score
-    assert_equal "Bill & Ted's", node.head.title
+    assert_equal 71, node.head.score
+    assert_equal "Hannibal Buress: Animal Furnace", node.head.title
     assert_nil node.head.right
     assert_nil node.head.left
   end
 
   def test_insert
-    movie = BinarySearchTree.new
-    movie.insert_new_node(16, "Johnny")
-
-
+    tree = BinarySearchTree.new
+    tree.insert_new_node(44, "B&B DO america")
+    # require "pry"; binding.pry
+    assert_equal 44, movie.head.right.score
   end
 
 
