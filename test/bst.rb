@@ -1,8 +1,8 @@
-class BST
+class DateNight
   attr_reader :root
 
   def initialize
-    @root = Node.new(1)
+    @root = Node.new
   end
 
   def add_node(data)
@@ -22,8 +22,3 @@ class BST
     end
   end
 end
-
-
-# sharpening_ruby dave mauer
-
-#  this is the tree structure
